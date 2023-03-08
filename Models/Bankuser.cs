@@ -28,5 +28,5 @@ public partial class Bankuser
 
     public DateTime? CreatedAt { get; set; }
 
-    public virtual ICollection<Bankaccount> Bankaccounts { get; } = new List<Bankaccount>();
+    public virtual ICollection<Bankaccount> Bankaccounts { get; set; } = new List<Bankaccount>();
 }
