@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using WebAPIPrectice.Models;
 
-namespace WebAPIPrectice.Data;
+namespace BankOZK.Data;
 
-public partial class WebAPIContext : DbContext
+public partial class BankOZKContext : DbContext
 {
-    public WebAPIContext(DbContextOptions<WebAPIContext> options)
+    public BankOZKContext(DbContextOptions<BankOZKContext> options)
         : base(options)
     {
     }
